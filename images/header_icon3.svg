@@ -1,0 +1,20 @@
+<svg id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44.72 36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f4b11c;
+      }
+
+      .cls-2 {
+        fill: #27adfb;
+      }
+    </style>
+  </defs>
+  <title>Vector Smart Object</title>
+  <g>
+    <rect class="cls-1" x="30.58" y="33.73" width="11.73" height="1.09"/>
+    <rect class="cls-1" x="2.41" y="33.73" width="11.73" height="1.09"/>
+    <polygon class="cls-1" points="21.37 29.29 23.35 29.29 23.35 32.7 29.68 32.7 29.68 36 15.04 36 15.04 32.7 21.37 32.7 21.37 29.29"/>
+  </g>
+  <path class="cls-2" d="M602.1,230.11v25.15H557.38V234.57a3,3,0,0,1,2.95-2.95h22.74a2.18,2.18,0,0,0,2.13-1.73c0-.06,0-0.12,0-0.18h0a3,3,0,0,1,2.92-2.56h11A3,3,0,0,1,602.1,230.11Z" transform="translate(-557.38 -227.16)"/>
+</svg>
