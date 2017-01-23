@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Support</title>
+    <title>Shiwebs Hosting and Development</title>
     
     <!-- owl carousel css -->
     <link rel="stylesheet" href="css/owl.carousel.css"/>
@@ -37,7 +37,7 @@
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/png" href="images/favicon.png"/>
 </head>
-<body class="support-page">
+<body class="webhosting">
 
     <!-- preloader -->
     <div class="preloader-bg">
@@ -61,15 +61,12 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="contact_email">
-                            <span><i class="fa fa-clock-o"></i>24/7 Support</span><a href="tel:1234567890"><p>(123) 4567890</p></a>
+                            <span><i class="fa fa-clock-o"></i>24/7 Support</span><a href="tel:1234567890"><p>(66) 0993352348</p></a>
                         </div>
                         <div class="hk_contact_lang">
                             <ul>
                                 <li>
-                                    <a href="cart.html">
-                                        <span class="fa fa-shopping-cart"></span><p>Cart</p>
-                                        <span class="hk_cart_item">(2)</span>
-                                    </a>
+                                    
                                 </li>
                                 <li class="hk_login_modal">
                                     <a href="#"><span class="fa fa-lock"></span><p>Login</p></a>
@@ -92,9 +89,8 @@
                                     <a href="#"><span class="lng">eng</span> <span class="caret"></span></a>
                                     <ul class="hk_lang_dropdown">
                                         <li><a href="#">English</a></li>
-                                        <li><a href="#">arabic</a></li>
-                                        <li><a href="#">German</a></li>
-                                        <li><a href="#">Spanish</a></li>
+                                        <li><a href="#">Thai</a></li>
+                                        
                                     </ul>
                                 </li>
                             </ul>
@@ -106,7 +102,7 @@
         <!-- tiny header ends -->
         
         <!-- main menu starts -->
-        <div class="hk_mainmenu">
+         <div class="hk_mainmenu">
             <nav class="navbar navbar-default hk_nav_shadow">
               <div class="container">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -123,71 +119,39 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-right navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav">
-                        <li class="hk_has_dropdown">
-                            <a href="#">Home <span class="fa fa-angle-down"></span></a>
-                            <div class="hk_dropdwon">
-                                <ul>
-                                    <li>
-                                        <a href="index.html">Home V1 <span class="fa fa-caret-right"></span></a>
-                                    </li>
-                                    <li>
-                                        <a href="index2.html">Home V2 <span class="fa fa-caret-right"></span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="domain-search.html">Domains</a></li>
-                        <li class="hk_has_dropdown">
+                       <li><a href="index.html">Home</a></li>
+                                       
+                                        <li class="hk_has_dropdown">
                             <a href="web-hosting.html">Hosting<span class="fa fa-angle-down"></span></a>
                             <div class="hk_dropdwon">
                                 <ul>
                                     <li><a href="web-hosting.html">Web Hosting <span class="fa fa-caret-right"></span></a></li>
                                     <li><a href="vps-hosting.html">VPS HOSTING <span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="cloud-hosting.html">Cloud Hosting <span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="dedicated-hosting.html">dedicated Hosting <span class="fa fa-caret-right"></span></a></li>
+                                    <li><a href="vpn-hosting.html">VPN Service <span class="fa-fa-caret-right"></span></a></li>
+                                    
                                 </ul>
                             </div>
                         </li>
-                        <li class="hk_has_mehgamenu">
-                            <a href="#">Pages<span class="fa fa-angle-down"></span></a>
-                            <div class="hk_megamenu">
-                                <ul>
-                                    <li><a href="index.html">Home V1 <span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="index2.html">Home V2 <span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="web-hosting.html">Web Hosting <span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="vps-hosting.html">VPS HOSTING <span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="cloud-hosting.html">Cloud Hosting<span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="dedicated-hosting.html">dedicated Hosting <span class="fa fa-caret-right"></span></a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="domain-search.html">Domains <span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="faq.html">Faq<span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="cart.html">cart<span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="checkout.html">checkout <span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="support.html">Support <span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="clinet-area.html">Client area<span class="fa fa-caret-right"></span></a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="about_us.html">About us<span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="blog.html">blog<span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="single_blog.html">blog single<span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="testimonial.html">testmonial <span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="contact.html">contact <span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="error.html">error-404<span class="fa fa-caret-right"></span></a></li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="hk_has_dropdown">
-                            <a href="blog.html">Blog<span class="fa fa-angle-down"></span></a>
+                                        <li class="hk_has_dropdown">
+                            <a href="web-hosting.html">Development<span class="fa fa-angle-down"></span></a>
                             <div class="hk_dropdwon">
                                 <ul>
-                                    <li><a href="blog.html">blog <span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="single_blog.html">Single Blog<span class="fa fa-caret-right"></span></a></li>
+                                    <li><a href="developmentservice.html">Development Services<span class="fa fa-caret-right"></span></a></li>
+                                    <li><a href="infrastructureservice.html">Infrastructure Services<span class="fa fa-caret-right"></span></a></li>
+                                    <li><a href="designservice.html">Design Services<span class="fa fa-caret-right"></span></a></li>
+                                    <li><a href="customservice.html">Custom Services<span class="fa fa-caret-right"></span></a></li>
+                                    
                                 </ul>
                             </div>
                         </li>
+                                       
+                       
+                        
+                       
+                        
+                        <li><a href="about_us.html">About</a></li>
+                        
                         <li><a href="contact.html">Contact</a></li>
-                        <li><a href="support.html">support</a></li>
                     </ul>
                     <div class="hk_menu_btn_wrapper">
                         <a href="clinet-area.html" class="btn hk_btn hk_login">Account</a>
@@ -211,12 +175,12 @@
             <div class="col-md-12">
                 <div class="hk_breadcrumb_wrapper">
                     <div class="hk_breadcrumb_title">
-                        <h1>Support</h1>
+                        <h1>Design Service</h1>
                     </div>
                     <div class="hk_breadcrumb_area">
                         <ol class="breadcrumb">
-                            <li><a href="#">Home</a></li>
-                            <li class="active">Support</li>
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active">Design Service</li>
                         </ol>
                     </div>
                 </div>
@@ -224,64 +188,63 @@
         </div>
     </section>
     <!--================================
-        2.END BREDCRAM AREA
-    =================================-->
-    
-    <!--================================
-        3.START CONTACT AREA
-    =================================-->
-    <section class="hk_section_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5 col-sm-6">
-                    <div class="hk_support_address_wrapper">
-                        <div class="hk_contact_area_title">
-                        <h4>Email Support.</h4>
-                    </div>
-                    <div class="hk_contact_address">
-                        <div class="hk_email_support">
-                            <p class="hk_support_text">For your other questions please use below email addresses. For pre-sale question let's decide together with appropriate service for you in consultation with sales team.</p>
-
-                            <ul class="hk_support_list">
-                                <li><a href="mailto:support@themeebit.com">support@themeebit.com</a></li>
-                                <li><a href="mailto:sales@themeebit.com">sales@themeebit.com</a></li>
-                                <li><a href="mailto:affiliate@themeebit.com">affiliate@themeebit.com</a></li>
-                                <li><a href="mailto:hello@themeebit.com">hello@themeebit.com</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    </div>
-                </div>
-                <div class="col-md-7 col-sm-6">
-                    <div class="hk_contact_form_wrapper hk_support_ticket">
-                        <div class="hk_contact_area_title">
-                            <h4>Open a ticket</h4>
-                        </div>
-
-                        <div class="hk_contact_form hk_support_form">
-                            <div class="hk_form_wrapper">
-                                <form action="#">
-                                    <input type="text" class="hk_input_half_width hk_contact_input left" placeholder="First name*" required>
-                                    <input type="text" class="hk_input_half_width hk_contact_input" placeholder="Last name" required>
-                                    <input type="email" class="hk_input_half_width hk_contact_input left" placeholder="Email*" required>
-                                    <input type="text" class="hk_input_half_width hk_contact_input" placeholder="Subject*" required>
-                                    <textarea  class="hk_contact_input hk_message" cols="30" rows="5" placeholder="Message" required></textarea>
-
-                                    <input type="submit" class="hk_btn hk_message_btn" value="Submit">
-                                </form>
-                            </div>
-                        </div>
+        3.title area
+    =================================-->    
+<div class="container-fluid">
+	<div class="row">
+                <div class="col-md-12">
+                    <div class="hk_section_title reveal animated" data-anim-duration="0.3s" data-anim-delay="0" data-reveal-anim="fadeIn">
+                        <h1>We Provide <span class="title_highlight">Ideal Services</span>. Contact Us 
+                        <span class="title_highlight">Today!</span></h1>
+                        <p class="hk_title_subtext">Eu delicata rationibus usu. Vix te putant utroque, ludus fabellas duo eu, his dico ut debet consectetuer.</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+</div>
+
+<!--================================
+        3.END title AREA
+    =================================-->
     <!--================================
-        3.END CONTACT AREA
+        4.content area
+    =================================-->
+    <div class="container-fluid">
+	<div class="row">
+                <div class="col-md-12">
+                    <div class="hk_section_title reveal animated" data-anim-duration="0.3s" data-anim-delay="0" data-reveal-anim="fadeIn">
+                        <h1>Coming Soon</h1>
+                    </div>
+                </div>
+            </div>
+</div>
+    <!--================================
+        4.END content area 
+            =================================-->
+    
+    <!--================================
+        4.END PRICING SECETION
+    =================================-->
+
+
+
+    <!--================================
+        6.START PARTNER-TESTIMONOAL
+    =================================-->
+   
+    <!--================================
+        6.START PARTNER-TESTIMONOAL
     =================================-->
 
     <!--================================
-        7.START PROMOT AREA
+        6.START CLIENTS AREA
+    =================================-->
+   
+    <!--================================
+        6.END CLIENTS AREA
+    =================================-->
+
+    <!--================================
+        7.START PARTNER-TESTIMONOAL
     =================================-->
     <section class="hk_promot_section">
         <div class="container">
@@ -291,17 +254,15 @@
                         <h2>Have a pre-sale question for our packages?</h2>
                     </div>
                     <div class="hk_promot_btn">
-                        <a href="#" class="hk_btn">Get Started Now</a>
+                        <a href="contact.html" class="hk_btn">Contact Us</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!--================================
-        8.END PROMOT AREA
+        8.START PARTNER-TESTIMONOAL
     =================================-->
-
-
 
     <!--================================
         9.START PARTNER-TESTIMONOAL
@@ -318,14 +279,7 @@
                             <div class="hk_about_us">
                                 <p>Cu sonet omnesque vis, qui case aperiri no. His no prodesset deterruisset, diam sint dolore an eos, dissentiet complectitur .</p>
                             </div>
-                            <div class="hk_mail_subscription">
-                                <p>Sign Up for Our Special Offer</p>
-                                <form action="#" class="hk_subs_form">
-                                    <input class="email" type="email" placeholder="Enter your Email">
-                                    <input class="hk_btn  hk_subscribe" type="submit" value="Sign Up">
-                                </form>
-                            </div>
-                        </div>
+                             </div>
                     </div>
                     <div class="col-md-4 col-sm-4 col-md-offset-2">
                         <div class="hk_footer_widgets">
@@ -334,23 +288,20 @@
                             </div>
                             <div class="hk_footer_links">
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Hosting</a></li>
-                                    <li><a href="#">Coming Soon</a></li>
-                                </ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="web-hosting.html">Web Hosting</a></li>
+                                    <li><a href="vps-hosting.html">VPS Hosting</a></li>
+                                    <li><a href="vpn-hosting.html">VPN Service</a></li>
+                                                                  </ul>
                             </div>
                             <div class="hk_footer_links">
                                 <ul>
-                                    <li><a href="#">Home</a></li>
-                                    <li><a href="#">About Us</a></li>
-                                    <li><a href="#">Services</a></li>
-                                    <li><a href="#">Blog</a></li>
-                                    <li><a href="#">Hosting</a></li>
-                                    <li><a href="#">Coming Soon</a></li>
-                                </ul>
+                                    <li><a href="developmentservices.html">Development Services</a></li>
+                                    <li><a href="infrastructureservices.html">Infrastructure Services</a></li>
+                                    <li><a href="designservices.html">Design Services</a></li>
+                                    <li><a href="customservices.html">Custom Services</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                                   </ul>
                             </div>
                         </div>
                     </div>
@@ -361,13 +312,11 @@
                             </div>
                             <div class="hk_footer_links hk_social">
                                 <ul>
-                                    <li><a href="tel:4567890"><span class="fa fa-phone"></span><p>(123) 4567890</p></a></li>
-                                    <li><a href="maitlto:yourmail@gmail.com"><span class="fa fa-envelope-o"></span><p>yourmail@gmail.com</p></a></li>
-                                    <li><a href="https://www.facebook.com/" target="_blank"><span class="fa fa-facebook"></span><p>facebok</p></a></li>
-                                    <li><a href="#" target="_blank"><span class="fa fa-twitter"></span><p>twitter</p></a></li>
-                                    <li><a href="#" target="_blank"><span class="fa  fa-google-plus"></span><p>google+</p></a></li>
-                                    <li><a href="#" target="_blank"><span class="fa fa-linkedin"></span><p>youtube</p></a></li>
-                                </ul>
+                                    <li><a href="tel:(66) 0993352348"><span class="fa fa-phone"></span><p>(66) 0993352348</p></a></li>
+                                    <li><a href="maitlto:info@shiwebs.com"><span class="fa fa-envelope-o"></span><p>info@shiwebs.com</p></a></li>
+                                    <li><a href="https://www.facebook.com/shiwebs" target="_blank"><span class="fa fa-facebook"></span><p>facebok</p></a></li>
+                                    <li><a href="https://www.twtter.com/shiwebs" target="_blank"><span class="fa fa-twitter"></span><p>twitter</p></a></li>
+                                             </ul>
                             </div>
                         </div>
                     </div>
@@ -379,8 +328,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="hk_tiny_footer">
-                        <p>Copyright © 2016 Hostking. <br>
-All Rights Reserved by <a href="">ThemeeBiT</a></p>
+                        <p>Copyright © 2017 Shiwebs. <br>
+All Rights Reserved
                     </div>
                 </div>
             </div>
