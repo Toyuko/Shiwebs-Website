@@ -100,69 +100,9 @@
         </div>
         <!-- tiny header ends -->
         
-        <!-- main menu starts -->
-        <div class="hk_mainmenu">
-            <nav class="navbar navbar-default hk_nav_shadow">
-              <div class="container">
-                <!-- Brand and toggle get grouped for better mobile display -->
-                <div class="navbar-header">
-                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                  </button>
-                  <a class="navbar-brand" href="index.html"><img class="hk_svg" src="images/logo.svg" alt=""></a>
-                </div>
-
-                <!-- Collect the nav links, forms, and other content for toggling -->
-                <div class="collapse navbar-right navbar-collapse" id="bs-example-navbar-collapse-1">
-                    <ul class="nav navbar-nav">
-                       <li><a href="index.html">Home</a></li>
-                                       
-                                        <li class="hk_has_dropdown">
-                            <a href="web-hosting.html">Hosting<span class="fa fa-angle-down"></span></a>
-                            <div class="hk_dropdwon">
-                                <ul>
-                                    <li><a href="web-hosting.html">Web Hosting <span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="vps-hosting.html">VPS HOSTING <span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="vpn-hosting.html">VPN Service <span class="fa-fa-caret-right"></span></a></li>
-                                    
-                                </ul>
-                            </div>
-                        </li>
-                                        <li class="hk_has_dropdown">
-                            <a href="web-hosting.html">Development<span class="fa fa-angle-down"></span></a>
-                            <div class="hk_dropdwon">
-                                <ul>
-                                    <li><a href="developmentservice.html">Development Services<span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="infrastructureservice.html">Infrastructure Services<span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="designservice.html">Design Services<span class="fa fa-caret-right"></span></a></li>
-                                    <li><a href="customservice.html">Custom Services<span class="fa fa-caret-right"></span></a></li>
-                                    
-                                </ul>
-                            </div>
-                        </li>
-                                       
-                       
-                        
-                       
-                        
-						
-                        <li><a href="about_us.html">About</a></li>
-                        
-						
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                    <div class="hk_menu_btn_wrapper">
-                        <a href="clinet-area.html" class="btn hk_btn hk_login">Account</a>
-                    </div>
-                </div><!-- /.navbar-collapse -->
-                
-              </div><!-- /.container -->
-            </nav>
-        </div>
-        <!-- main menu ends -->
+        <!-- main menu starts -->      
+         <?php include("menu.php"); ?>
+            <!-- main menu ends -->
     </section>
     <!--================================
         1.END HERO-SECTION
@@ -381,76 +321,10 @@
 
     <!--================================
         9.START PARTNER-TESTIMONOAL
-    =================================-->
-    <footer>
-        <div class="hk_footer_wrapper hk_section_padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-4">
-                        <div class="hk_about_us_wrapper">
-                            <div class="hk_footer_logo">
-                                <img class="hk_svg" src="images/logo.svg" alt="">
-                            </div>
-                            <div class="hk_about_us">
-                                <p>Cu sonet omnesque vis, qui case aperiri no. His no prodesset deterruisset, diam sint dolore an eos, dissentiet complectitur .</p>
-                            </div>
-                             </div>
-                    </div>
-                    <div class="col-md-4 col-sm-4 col-md-offset-2">
-                        <div class="hk_footer_widgets">
-                            <div class="hk_widget_title">
-                                <h4>EXplore our pages</h4>
-                            </div>
-                            <div class="hk_footer_links">
-                                <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="web-hosting.html">Web Hosting</a></li>
-                                    <li><a href="vps-hosting.html">VPS Hosting</a></li>
-                                    <li><a href="vpn-hosting.html">VPN Service</a></li>
-                                                                  </ul>
-                            </div>
-                            <div class="hk_footer_links">
-                                <ul>
-                                    <li><a href="developmentservices.html">Development Services</a></li>
-                                    <li><a href="infrastructureservices.html">Infrastructure Services</a></li>
-                                    <li><a href="designservices.html">Design Services</a></li>
-                                    <li><a href="customservices.html">Custom Services</a></li>
-                                    <li><a href="contact.html">Contact</a></li>
-                                                   </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-md-offset-0 col-lg-2 col-sm-4 col-lg-offset-1">
-                        <div class="hk_footer_widgets hk_footer_social">
-                            <div class="hk_widget_title">
-                                <h4>Contact With Us</h4>
-                            </div>
-                            <div class="hk_footer_links hk_social">
-                                <ul>
-                                    <li><a href="tel:(66) 0993352348"><span class="fa fa-phone"></span><p>(66) 0993352348</p></a></li>
-                                    <li><a href="maitlto:info@shiwebs.com"><span class="fa fa-envelope-o"></span><p>info@shiwebs.com</p></a></li>
-                                    <li><a href="https://www.facebook.com/shiwebs" target="_blank"><span class="fa fa-facebook"></span><p>facebok</p></a></li>
-                                    <li><a href="https://www.twtter.com/shiwebs" target="_blank"><span class="fa fa-twitter"></span><p>twitter</p></a></li>
-                                             </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+    =================================-->    
+           <?php include("footer.php"); ?>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="hk_tiny_footer">
-                        <p>Copyright © 2017 Shiwebs. <br>
-All Rights Reserved
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-    <!--================================
+       <!--================================
         9.START PARTNER-TESTIMONOAL
     =================================-->
 

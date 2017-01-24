@@ -117,12 +117,12 @@
             <div class="col-md-12">
                 <div class="hk_breadcrumb_wrapper">
                     <div class="hk_breadcrumb_title">
-                        <h1>Design Service</h1>
+                        <h1>Social Media Services</h1>
                     </div>
                     <div class="hk_breadcrumb_area">
                         <ol class="breadcrumb">
                             <li><a href="index.html">Home</a></li>
-                            <li class="active">Design Service</li>
+                            <li class="active">Social Media Services</li>
                         </ol>
                     </div>
                 </div>
