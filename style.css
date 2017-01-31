@@ -3266,6 +3266,12 @@ END TESTIMONIAL AREA
 .checkout-page .hk_form_wrapper .address{
 	width: 100%;
 }
+.checkout-page .hk_form_wrapper .package {
+	width: 100%;
+}
+.checkout-page .hk_form_wrapper .register_domain {
+	width: 100%;
+}
 .hk_checkout_input,
 .hk_chekout_area select{
 	line-height: 48px;
