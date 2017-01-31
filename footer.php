@@ -10,7 +10,7 @@
                     <div class="col-md-3 col-sm-4">
                         <div class="hk_about_us_wrapper">
                             <div class="hk_footer_logo">
-                                <img class="hk_svg" src="images/logo2.svg" alt="">
+                                <img class="hk_svg" src="images/logo.svg" alt="">
                             </div>
                             <div class="hk_about_us">
                                 <p>Cu sonet omnesque vis, qui case aperiri no. His no prodesset deterruisset, diam sint dolore an eos, dissentiet complectitur .</p>
