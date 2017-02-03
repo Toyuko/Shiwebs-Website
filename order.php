@@ -1,3 +1,57 @@
+<?php
+if(isset($_GET) && $_GET['do'] == 'order') {
+    // send e-mail to customer & sales@shiwebs.com
+    $c_subject = 'Thank you for your order!';
+    $c_message = 'Your order has been received, please complete the payment of 
+                  the order so it can be processed quickly. If you have selected 
+                  a domain that should be registered we will set it up so it is 
+                  configured for use with our service at once. \n\n If you are using paypal,
+                  Send the payment for the service '.$_POST['package'].' to sales@shiwebs.com 
+                  with the domain '.$_POST['domain'].' as subject.\n\nFeel free to contact us
+                  on sales@shiwebs.com at any time to discuss your order or complete the 
+                  inital payment of services.
+Order datails:
+Name '.$_POST['fname.'].' '.$_POST['lname'].'
+Address '.$_POST['address1'].' '.$_POST['address2'].'
+City '.$_POST['city'].', Zipcode '.$_POST['zipcode'].'
+Country '.$_POST['country'].'
+
+Phone '.$_POST['phone'].'
+Package '.$_POST['package'].'
+Domain '.$_POST['domain'].', Register '.$_POST['register_domain'].'
+DNS '.$_POST['default_dns'].'
+
+E-mail '.$_POST['email'].'
+Password '.$_POST['password'].'
+
+Best Regards,
+The Shiwebs Team';
+
+    $a_subject = 'A new order has been receieved';
+    $a_message = 'A new order has been created, awaiting payment.
+Order datails:
+Name '.$_POST['fname.'].' '.$_POST['lname'].'
+Address '.$_POST['address1'].' '.$_POST['address2'].'
+City '.$_POST['city'].', Zipcode '.$_POST['zipcode'].'
+Country '.$_POST['country'].'
+
+Phone '.$_POST['phone'].'
+Package '.$_POST['package'].'
+Domain '.$_POST['domain'].', Register '.$_POST['register_domain'].'
+DNS '.$_POST['default_dns'].'
+
+E-mail '.$_POST['email'].'
+Password '.$_POST['password'];
+        
+        $header = "From: Shiwebs <sales@shiwebs.com>\r\n";
+
+        mail($_POST['email'], $c_subject, $c_message, $header);
+        mail('timh@shiwebs.com', $a_subject, $a_message, $header);
+
+        header('Location: /thankyou.php');
+
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -100,7 +154,46 @@
         <!-- tiny header ends -->
         
         <!-- main menu starts -->
-        <?php include("menu.php"); ?>
+        <div class="hk_mainmenu">
+          <nav class="navbar navbar-default hk_nav_shadow">
+            <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+                <a class="navbar-brand" href="index.html"><img class="hk_svg" src="images/logo.svg" alt=""></a> </div>
+              <!-- Collect the nav links, forms, and other content for toggling -->
+              <div class="collapse navbar-right navbar-collapse" id="bs-example-navbar-collapse-2">
+                <ul class="nav navbar-nav">
+                  <li><a href="index.html">Home</a></li>
+                  <li class="hk_has_dropdown"> <a href="web-hosting.html">Hosting<span class="fa fa-angle-down"></span></a>
+                    <div class="hk_dropdwon">
+                      <ul>
+                        <li><a href="web-hosting.html">Web Hosting <span class="fa fa-caret-right"></span></a></li>
+                        <li><a href="vps-hosting.html">VPS HOSTING <span class="fa fa-caret-right"></span></a></li>
+                        <li><a href="vpn-hosting.html">VPN Service <span class="fa-fa-caret-right"></span></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="hk_has_dropdown"> <a href="web-hosting.html">Development<span class="fa fa-angle-down"></span></a>
+                    <div class="hk_dropdwon">
+                      <ul>
+                        <li><a href="developmentservice.html">Development Services<span class="fa fa-caret-right"></span></a></li>
+                        <li><a href="infrastructureservice.html">Infrastructure Services<span class="fa fa-caret-right"></span></a></li>
+                        <li><a href="designservice.html">Design Services<span class="fa fa-caret-right"></span></a></li>
+                        <li><a href="customservice.html">Custom Services<span class="fa fa-caret-right"></span></a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li><a href="about_us.html">About</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hk_menu_btn_wrapper"> <a href="clinet-area.html" class="btn hk_btn hk_login">Account</a> </div>
+              </div>
+              <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+          </nav>
+        </div>
         <!-- main menu ends -->
     </section>
     <!--================================
@@ -139,12 +232,14 @@
         <section class="hk_chekout_area hk_section_padding">
         <div class="container">
             <div class="row">
-                <form action="cmd/order.php">
+                <form action="order.php?do=order" method="post">
 <div class="col-md-3"></div>
                 <div class="col-md-6 col-sm-6">
                     <div class="hk_form_wrapper">
                     <div class="hk_select_wrapper">
+                        <label for="package">Package</label>
                         <select class="hk_checkout_input package" name="package" id="package">
+                            <option selected>-- Select Package --</option>
                             <option value="WebHosting">Shared WebHosting b500/mo</option>
                             <option value="VPS3000">VPS Hosting b3,000/mo</option>
                             <option value="VPS5000">VPS Hosting b5,000/mo</option>
@@ -152,22 +247,25 @@
                         </select>
                         <span class="caret"></span>
                     </div>
-                    <input class="hk_checkout_input domain" type="text" placeholder="Domain">
+                    <label for="domain">Domain</label>
+                    <input class="hk_checkout_input domain" name="domain" id="domain" type="text" placeholder="Domain">
                     <div class="hk_select_wrapper">
+                    <label for="register_domain">Register Domain</label>
                         <select class="hk_checkout_input register" name="register_domain" id="register_domain">
-                            <option value="Yes">Yes, register domain</option>
-                            <option value="No">No, domain already registerd</option>
+                            <option value="Yes" selected>Yes, register domain</option>
+                            <option value="No">No, domain already registered</option>
                         </select>
+                        <input type="checkbox" value="default_dns" name="default_dns" checked>Setup basic DNS-records
                         <span class="caret"></span>
                     </div>
-                            <input class="hk_checkout_input left hk_input_half_width" type="text" placeholder="First Name">
-                            <input class="hk_checkout_input hk_input_half_width" type="text" placeholder="Last Name">
-                            <input class="hk_checkout_input left hk_input_half_width" type="text" placeholder="Email">
-                            <input class="hk_checkout_input hk_input_half_width" type="text" placeholder="Phone Number">
-                            <input class="hk_checkout_input address" type="text" placeholder="Address Line 1">
-                            <input class="hk_checkout_input address" type="text" placeholder="Address Line 2">
-                            <input class="hk_checkout_input hk_input_half_width left" type="text" placeholder="City">
-                            <input class="hk_checkout_input hk_input_half_width" type="text" placeholder="Zip Code">
+                            <input class="hk_checkout_input left hk_input_half_width" type="text" placeholder="First Name" name="fname">
+                            <input class="hk_checkout_input hk_input_half_width" type="text" placeholder="Last Name" name="lname">
+                            <input class="hk_checkout_input left hk_input_half_width" type="text" placeholder="Email" name="email">
+                            <input class="hk_checkout_input hk_input_half_width" type="text" placeholder="Phone Number" name="phone">
+                            <input class="hk_checkout_input address" type="text" placeholder="Address Line 1" name="address1">
+                            <input class="hk_checkout_input address" type="text" placeholder="Address Line 2" name="address2">
+                            <input class="hk_checkout_input hk_input_half_width left" type="text" placeholder="City" name="city">
+                            <input class="hk_checkout_input hk_input_half_width" type="text" placeholder="Zip Code" name="zipcode">
                             <!-- <div class="hk_select_wrapper hk_input_half_width">
                                 <select name="package" id="package">
                                     <option value="Package Selection">Package Selection</option>
@@ -189,8 +287,10 @@
                                 </select>
                                 <span class="caret"></span>
                             </div>
-                            <input class="hk_checkout_input hk_input_half_width left" type="text" placeholder="Password">
-                            <input class="hk_checkout_input hk_input_half_width" type="text" placeholder="Verify Password">
+                            <input class="hk_checkout_input hk_input_half_width left" type="text" placeholder="Password" name="password">
+                            <input class="hk_checkout_input hk_input_half_width" type="text" placeholder="Verify Password" name="verify_password">
+<br/>
+                            <input type="submit" value="Process order" class="hk_btn hk_proccen_btn">
                         </form>
                     </div>
                 </div>
@@ -280,7 +380,74 @@
     <!--================================
         9.START PARTNER-TESTIMONOAL
     =================================-->
-    <?php include("footer.php"); ?>
+    <footer>
+        <div class="hk_footer_wrapper hk_section_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-4">
+                        <div class="hk_about_us_wrapper">
+                            <div class="hk_footer_logo">
+                                <img class="hk_svg" src="images/logo.svg" alt="">
+                            </div>
+                            <div class="hk_about_us">
+                                <p>Cu sonet omnesque vis, qui case aperiri no. His no prodesset deterruisset, diam sint dolore an eos, dissentiet complectitur .</p>
+                            </div>
+                             </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-md-offset-2">
+                        <div class="hk_footer_widgets">
+                            <div class="hk_widget_title">
+                                <h4>EXplore our pages</h4>
+                            </div>
+                            <div class="hk_footer_links">
+                                <ul>
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="web-hosting.html">Web Hosting</a></li>
+                                    <li><a href="vps-hosting.html">VPS Hosting</a></li>
+                                    <li><a href="vpn-hosting.html">VPN Service</a></li>
+                                                                  </ul>
+                            </div>
+                            <div class="hk_footer_links">
+                                <ul>
+                                    <li><a href="developmentservices.html">Development Services</a></li>
+                                    <li><a href="infrastructureservices.html">Infrastructure Services</a></li>
+                                    <li><a href="designservices.html">Design Services</a></li>
+                                    <li><a href="customservices.html">Custom Services</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                                   </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-md-offset-0 col-lg-2 col-sm-4 col-lg-offset-1">
+                        <div class="hk_footer_widgets hk_footer_social">
+                            <div class="hk_widget_title">
+                                <h4>Contact With Us</h4>
+                            </div>
+                            <div class="hk_footer_links hk_social">
+                                <ul>
+                                    <li><a href="tel:(66) 0993352348"><span class="fa fa-phone"></span><p>(66) 0993352348</p></a></li>
+                                    <li><a href="maitlto:info@shiwebs.com"><span class="fa fa-envelope-o"></span><p>info@shiwebs.com</p></a></li>
+                                    <li><a href="https://www.facebook.com/shiwebs" target="_blank"><span class="fa fa-facebook"></span><p>facebok</p></a></li>
+                                    <li><a href="https://www.twtter.com/shiwebs" target="_blank"><span class="fa fa-twitter"></span><p>twitter</p></a></li>
+                                             </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="hk_tiny_footer">
+                        <p>Copyright © 2017 Shiwebs. <br>
+All Rights Reserved
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!--================================
         9.START PARTNER-TESTIMONOAL
     =================================-->

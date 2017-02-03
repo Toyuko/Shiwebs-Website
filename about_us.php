@@ -145,9 +145,9 @@
                 </div>
 
                 <div class="hk_about_us_contents">
-                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum rerum facilis est et expedita distinctio.</p>
+                    <p>Shiwebs is based in Bangkok, Thailand and was founded in December 2016 as a new hosting and development solution, that provides high quality hosting and services. With over 15 years experience in hosting and development between our two team members. You can feel confident and confortable in the fact that Shiwebs has the knowledge and experience required to get a solution for our customers each and everytime.</p>
                     
-                    <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est corporis suscipit laboriosam omnis dolor repellendus.</p>    
+                    <p>Timh and Touy decicate their passion, skills and expertise into Shiwebs and will be able to provide the customers with any solution wether its Hosting, Development or even consulting services. Shiwebs stands by our words and ready to support our customers at any time.</p>    
                 </div>
             </div>
             <div class="col-md-6 col-sm-6 v_middle">
@@ -171,8 +171,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="hk_section_title reveal animated" data-anim-duration="0.3s" data-anim-delay="0" data-reveal-anim="fadeIn">
-                        <h1>Why <span class="title_highlight">Choose</span> Us</h1>
-                        <p class="hk_title_subtext">Eu delicata rationibus usu. Vix te putant utroque, ludus fabellas duo eu, his dico ut debet consectetuer.</p>
+                        <h1>A <span class="title_highlight">Guarantee</span> Our Commitment to <span class="title_highlight">Quality</span></h1>
+                        
                     </div>
                 </div>
             </div>
@@ -183,43 +183,43 @@
                     <div class="col-md-4 col-xs-6 col-sm-4 no-padding">
                         <div class="hk_single_feature hk_pbr">
                             <div class="feature_icon"><img src="images/icons/icon1.svg" alt=""></div>
-                            <h4 class="hk_feature_title">FREE DOMAIN TRANSFER</h4>
-                            <p class="hk_feature_detail">Lorem ipsum dolor sit amet, ecte adipiscing elit. Nullam eget</p>
+                            <h4 class="hk_feature_title">DOMAIN LOOKUP</h4>
+                            <p class="hk_feature_detail">We can help you get your new and wanted domain, that you've been looking for.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-6 col-sm-4 no-padding">
                         <div class="hk_single_feature hk_plrb">
                             <div class="feature_icon"><img src="images/icons/icon2.svg" alt=""></div>
-                            <h4 class="hk_feature_title">Unlimited bandwidth</h4>
-                            <p class="hk_feature_detail">Lorem ipsum dolor sit amet, ecte adipiscing elit. Nullam eget</p>
+                            <h4 class="hk_feature_title">Top Bandwith</h4>
+                            <p class="hk_feature_detail">We provide the most open and highest bandwidth speeds anywhere.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-6 col-sm-4 no-padding">
                         <div class="hk_single_feature hk_plb">
                             <div class="feature_icon"><img src="images/icons/icon3.svg" alt=""></div>
-                            <h4 class="hk_feature_title">security</h4>
-                            <p class="hk_feature_detail">Lorem ipsum dolor sit amet, ecte adipiscing elit. Nullam eget</p>
+                            <h4 class="hk_feature_title">SECURITY</h4>
+                            <p class="hk_feature_detail">We care for our customers security and do our best to have a secure enviorment.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-6 col-sm-4 no-padding">
                         <div class="hk_single_feature hk_ptr">
                             <div class="feature_icon"><img src="images/icons/icon4.svg" alt=""></div>
                             <h4 class="hk_feature_title">99% uptime</h4>
-                            <p class="hk_feature_detail">Lorem ipsum dolor sit amet, ecte adipiscing elit. Nullam eget</p>
+                            <p class="hk_feature_detail">We are running on the latest and most modern hardware. Realiblity at the core.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-6 col-sm-4 no-padding">
                         <div class="hk_single_feature hk_pltr">
                             <div class="feature_icon"><img src="images/icons/icon5.svg" alt=""></div>
-                            <h4 class="hk_feature_title">FREE WEBSITE OPTIMIZATION</h4>
-                            <p class="hk_feature_detail">Lorem ipsum dolor sit amet, ecte adipiscing elit. Nullam eget</p>
+                            <h4 class="hk_feature_title">FREE WEBSITE CONSULTATIONS</h4>
+                            <p class="hk_feature_detail">Want to make your website have a impact? Want to get advice and tips?</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-6 col-sm-4 no-padding">
                         <div class="hk_single_feature hk_plt">
                             <div class="feature_icon"><img src="images/icons/icon6.svg" alt=""></div>
-                            <h4 class="hk_feature_title">24/7 Tech Support</h4>
-                            <p class="hk_feature_detail">Lorem ipsum dolor sit amet, ecte adipiscing elit. Nullam eget</p>
+                            <h4 class="hk_feature_title">Tech Support</h4>
+                            <p class="hk_feature_detail">We are ready and willing to support our customers asap.</p>
                         </div>
                     </div>
                 </div>
@@ -256,8 +256,10 @@
                             <p>Timh Bergstrom</p>
                             <span>Infrastructure Developer</span>
                         </div>
-                        <p>Cu sonet omnesque vis, qui case aperiri no. His no prodesset dedicatedrrui sset, diam sint dolore an eos.</p>
-                    </div>
+                                                <p>I'm knowledgeable and well versed with IPv4 and IPv6, BGP, OSPF and I have intimate knowledge of how TCP/IP really works and feel confident with networking, switching and routing in general, especially within datacenter network environments. I'm closely familiar with operational administrative tasks such as domain-registry, RIPE/APNIC/ARIN-registry, peering (I have personal experience with Netnod, AMS-IX, DEC-IX, STH-IX, SGIX, NL-IX, France-IX, LINX among others). 
+</p>
+
+             </div>
                 </div>
                 <div class="col-md-3 col-sm-3">
                     <div class="hk_single_team_member">

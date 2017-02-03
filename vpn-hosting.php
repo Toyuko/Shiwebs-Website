@@ -195,16 +195,15 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="hk_section_title reveal animated" data-anim-duration="0.3s" data-anim-delay="0" data-reveal-anim="fadeIn">
-                        <h1>We Provide <span class="title_highlight">Ideal Packages</span>. Choose Your Plan 
+                        <h1>We Provide <span class="title_highlight">Ideal Hosting Packages</span>. Choose Your Plan 
                         <span class="title_highlight">Today!</span></h1>
-                        <p class="hk_title_subtext">Eu delicata rationibus usu. Vix te putant utroque, ludus fabellas duo eu, his dico ut debet consectetuer.</p>
-                    </div>
+                                            </div>
                 </div>
             </div>
             <!-- section title ends here -->
 
 
-            <div class="row">
+           <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="hk_single_price_table">
                         <div class="hk_pricing_title">
@@ -224,20 +223,16 @@
 
                             <div class="hk_package_contains">
                                 <ul>
-                                    <li>25GB Web Space</li>
-                                    <li>FREE Site Building Tools</li>
-                                    <li>FREE Domain Registar</li>
-                                    <li class="hk_select_title">Select Duration:</li>
+                                    <li>1 GB Storage</li>
+                                    <li>1 GB Bandwidth @ Gigabyte Speed</li>
+                                    <li>Ubuntu Linux Server</li>
+                                    <li>SFTP, SCP, FTP Access</li>
+                                    <li class="hk_select_title">Select Package:</li>
                                     <li class="hk_price_select">
-                                        <p>3 month <span>$29.99/ mo</span></p>
-                                        <ul class="hk_price_option">
-                                            <li>3 month <span>$29.99/ mo</span></li>
-                                            <li>6 month <span>$40.99/ mo</span></li>
-                                            <li>1 year <span>$69.99/ mo</span></li>
-                                        </ul>
-                                    </li>
+                                        <p>1 month <span>B500/ mo</span></p>
+                                        </li>
                                 </ul>
-                                <a href="order.html" class="hk_btn hk_price_btn">Get Started</a>
+                                <a href="order.php" class="hk_btn hk_price_btn">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -253,7 +248,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="hk_packager_content center">
+                        <div class="hk_packager_content">
                             <div class="hk_package_price">
                                 <div class="hk_price_wrapper">
                                     <p>from</p><span class="hk_price"><sup>B</sup>3000</span><p>Per Month</p>
@@ -262,29 +257,29 @@
 
                             <div class="hk_package_contains">
                                 <ul>
-                                    <li>25GB Web Space</li>
-                                    <li>FREE Site Building Tools</li>
-                                    <li>FREE Domain Registar</li>
-                                    <li class="hk_select_title">Select Duration:</li>
-                                    <li class="hk_price_select">
-                                        <p>3 month <span>$29.99/ mo</span></p>
-                                        <ul class="hk_price_option">
-                                            <li>3 month <span>$29.99/ mo</span></li>
-                                            <li>6 month <span>$40.99/ mo</span></li>
-                                            <li>1 year <span>$69.99/ mo</span></li>
-                                        </ul>
-                                    </li>
+                                    <li></li>
+                                    <li>Full SSH access, console, control</li>
+                                    <li>Up to 25GB SSD storage</li>
+                                    <li>Up to 2GB Ram</li>
+                                    <li>Daily Backups</li>
+                                    <li class="hk_select_title">Select Package:</li>
+                                       <li class="hk_price_select">
+                                        <p>VPS Level 1 <span>B3000/ mo</span></p>
+                                         <ul class="hk_price_option">
+                                            <li>VPS Level 2 <span>B5000/ mo</span></li>
+                                            <li>VPS Level 3 <span>B10000/mo</span></li>
+                                                                                    </ul>
+                                        </li>
                                 </ul>
-                                <a href="order.html" class="hk_btn hk_price_btn">Get Started</a>
+                                <a href="order.php" class="hk_btn hk_price_btn">Get Started</a>
                             </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-md-3 col-sm-6">
+                 <div class="col-md-3 col-sm-6">
                     <div class="hk_single_price_table">
                         <div class="hk_pricing_title">
-                            <h3>VPN HOSTING</h3>
+                            <h3>Services</h3>
                             <div class="hk_pricing_bg">
                                 <img class="hk_svg" src="images/pricing_bg.svg" alt="">
                                 <div class="hk_pattern_overlay">
@@ -294,26 +289,20 @@
                         <div class="hk_packager_content center">
                             <div class="hk_package_price">
                                 <div class="hk_price_wrapper">
-                                    <p>from</p><span class="hk_price"><sup>B</sup>3000</span><p>Per Month</p>
+                                    <p>from</p><span class="hk_price"><sup>B</sup>3000</span><p></p>
                                 </div>
                             </div>
 
                             <div class="hk_package_contains">
                                 <ul>
-                                    <li>25GB Web Space</li>
-                                    <li>FREE Site Building Tools</li>
-                                    <li>FREE Domain Registar</li>
+                                   
+                                    <li>Managed Services</li>
+                                    <li>VPN Services</li>
+                                    <li>Development Services</li>
+                                    <li>Custom Services</li>
                                     <li class="hk_select_title">Select Duration:</li>
-                                    <li class="hk_price_select">
-                                        <p>3 month <span>$29.99/ mo</span></p>
-                                        <ul class="hk_price_option">
-                                            <li>3 month <span>$29.99/ mo</span></li>
-                                            <li>6 month <span>$40.99/ mo</span></li>
-                                            <li>1 year <span>$69.99/ mo</span></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <a href="order.html" class="hk_btn hk_price_btn">Get Started</a>
+                                    </ul>
+                                <a href="contact.php" class="hk_btn hk_price_btn">Contact Us Today</a>
                             </div>
                         </div>
                     </div>

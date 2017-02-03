@@ -3269,7 +3269,10 @@ END TESTIMONIAL AREA
 .checkout-page .hk_form_wrapper .package {
 	width: 100%;
 }
-.checkout-page .hk_form_wrapper .register_domain {
+.checkout-page .hk_form_wrapper .domain {
+	width: 100%;
+}
+.checkout-page .hk_form_wrapper .register {
 	width: 100%;
 }
 .hk_checkout_input,

@@ -152,20 +152,20 @@
                             <div class="hk_single_info">
                                 <p class="hk_info_title">Telephone</p>
                                 <p class="hk_info">
+                                    <span class="hk_span_left">Timh:</span>
+                                    <span class="hk_number"><a href="tel:+88005554712">+88 062 560 6805 </a></span>
+                                </p>
+                                <p class="hk_info">
                                     <span class="hk_span_left">Touy:</span>
                                     <span class="hk_number"><a href="tel:+88012345678">+66 099 335 2348</a></span>
                                 </p>
-                                <p class="hk_info">
-                                    <span class="hk_span_left">Timh:</span>
-                                    <span class="hk_number"><a href="tel:+88005554712">+88 099 335 2348 </a></span>
-                                </p>
-                            </div>
+                                                            </div>
 
                             <div class="hk_single_info">
                                 <p class="hk_info_title">Telephone</p>
                                 <p class="hk_info">
                                     <span class="hk_span_left">General Inquires:</span>
-                                    <span class="hk_email"><a href="mailto:info@shiwebs.com">info@shiwebs.com</a></span>
+                                    <span class="hk_email"><a href="mailto:info@shiwebs.com">sales@shiwebs.com</a></span>
                                 </p>
                                 <p class="hk_info">
                                     <span class="hk_span_left">Timh:</span>
@@ -211,7 +211,8 @@
     <!--================================
         9.START PARTNER-TESTIMONOAL
     =================================-->
-    <section id="hk_map_area"></section>
+    <!--- old map <section id="hk_map_area"></section> --> 
+    <center><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7752.23528525389!2d100.60862332599018!3d13.71132403317674!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2a6bd879d48b4500!2sLumpini+Sukhumvit+77+Condo!5e0!3m2!1sen!2sth!4v1486113199681" width="800" height="600" frameborder="0" style="border:0" allowfullscreen></iframe></center>
     <!--================================
         10.START PARTNER-TESTIMONOAL
     =================================-->

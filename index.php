@@ -127,7 +127,7 @@
                                             <div class="hk_service_icon">
                                                 <img class="hk_svg" src="images/header_icon3.svg" alt="">
                                             </div>
-                                            <p>VPN Service</p>
+                                            <p>VPS Hosting</p>
                                         </div>
                                     </li> 
                                     <li>
@@ -136,7 +136,7 @@
                                             <div class="hk_service_icon">
                                                 <img class="hk_svg" src="images/icons/icon1.svg" alt="">
                                             </div>
-                                            <p>VPS Hosting</p>
+                                            <p>Services</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -155,49 +155,50 @@
                                 <div class="hk_single_pack_desc  active hk_tab_item1">
                                     <div class="hk_package_title"><h1>Web Hosting</h1></div>
                                     <div class="hk_package_desc">
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto </p>
+                                        <p>Web hosting that can be useful for any application. Realiable, Superfast Servers and Technical support will be sure to provide you with the best hosting solution for your application.</p>
                                         <div class="hk_pack_feature">
                                             <ul>
-                                                <li><span class="fa  fa-check-circle-o"></span>Fully Managed Dedicated Server</li>
-                                                <li><span class="fa  fa-check-circle-o"></span>Linux</li>
-                                                <li><span class="fa  fa-check-circle-o"></span>Complate Control with Root access</li>
-                                                <li><span class="fa  fa-check-circle-o"></span>Dedicated Bandwidth</li>
+                                                <li><span class="fa  fa-check-circle-o"></span>1 GB Storage</li>
+                                                <li><span class="fa  fa-check-circle-o"></span>1 GB Transfer @ Gigabit Speed</li>
+                                                <li><span class="fa  fa-check-circle-o"></span>Ubuntu Linux Server</li>
+                                                <li><span class="fa  fa-check-circle-o"></span>SFTP, SCP, FTP Acccess</li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <a class="hk_btn hk_hero_btn" href="web-hosting.html">Get Started Now</a>
+                                    <a class="hk_btn hk_hero_btn" href="order.php">Get Started Now</a>
                                 </div>
 
-                                 <div class="hk_single_pack_desc hk_tab_item2">
-                                    <div class="hk_package_title"><h1>VPN Service</h1></div>
-                                    <div class="hk_package_desc">
-                                        <p>"At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint </p>
-                                        <div class="hk_pack_feature">
-                                            <ul>
-                                                <li><span class="fa  fa-check-circle-o"></span>Fully Managed Dedicated Server</li>
-                                                <li><span class="fa  fa-check-circle-o"></span>Linux</li>
-                                                <li><span class="fa  fa-check-circle-o"></span>Complate Control with Root access</li>
-                                                <li><span class="fa  fa-check-circle-o"></span>Dedicated Bandwidth</li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <a class="hk_btn hk_hero_btn" href="vps-hosting.html">Get Started Now</a>
-                                </div> 
-
-                                <div class="hk_single_pack_desc hk_tab_item3">
+                                 
+                                <div class="hk_single_pack_desc hk_tab_item2">
                                     <div class="hk_package_title"><h1>VPS Hosting</h1></div>
                                     <div class="hk_package_desc">
-                                        <p>ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatudolorem ipsum quia dolo</p>
+                                        <p>VPS Hosting, that can be tailored and scaled to your wants and needs. At Shiwebs we offer our customers various solutions that can be adapatble and useful. Contact us today!</p>
                                         <div class="hk_pack_feature">
                                             <ul>
-                                                <li><span class="fa  fa-check-circle-o"></span>Fully Managed Dedicated Server</li>
-                                                <li><span class="fa  fa-check-circle-o"></span>Linux</li>
-                                                <li><span class="fa  fa-check-circle-o"></span>Complate Control with Root access</li>
-                                                <li><span class="fa  fa-check-circle-o"></span>Dedicated Bandwidth</li>
+                                                <li><span class="fa  fa-check-circle-o"></span>Full SSH access, console, control</li>
+                                                <li><span class="fa  fa-check-circle-o"></span>Up to 25GB SSD storage</li>
+                                                <li><span class="fa  fa-check-circle-o"></span>Up to 2GB Ram</li>
+                                                <li><span class="fa  fa-check-circle-o"></span>Daily Backups</li>
                                             </ul>
                                         </div>
                                     </div>
-                                    <a class="hk_btn hk_hero_btn" href="vps-hosting.html">Get Started Now</a>
+                                    <a class="hk_btn hk_hero_btn" href="order.php">Get Started Now</a>
+                                </div> 
+                                
+                                <div class="hk_single_pack_desc hk_tab_item3">
+                                    <div class="hk_package_title"><h1>Services</h1></div>
+                                    <div class="hk_package_desc">
+                                        <p>At Shiwebs, we offer various services from VPN Service all the way to custom web design services. Contact us today with your proposal and we can have a disscussion.</p>
+                                        <div class="hk_pack_feature">
+                                            <ul>
+                                                <li><span class="fa  fa-check-circle-o"></span>Managed Web Hosting Service</li>
+                                                <li><span class="fa  fa-check-circle-o"></span>Managed VPS Hosting Service</li>
+                                                <li><span class="fa  fa-check-circle-o"></span>Infrastructure Service</li>
+                                                <li><span class="fa  fa-check-circle-o"></span>Development Service</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <a class="hk_btn hk_hero_btn" href="contact.php">Contact Us Today</a>
                                 </div> 
                             </div>
                         </div>
@@ -263,10 +264,9 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="hk_section_title reveal animated" data-anim-duration="0.3s" data-anim-delay="0" data-reveal-anim="fadeIn">
-                        <h1>We Provide <span class="title_highlight">Ideal Packages</span>. Choose Your Plan 
+                        <h1>We Provide <span class="title_highlight">Ideal Hosting Packages</span>. Choose Your Plan 
                         <span class="title_highlight">Today!</span></h1>
-                        <p class="hk_title_subtext">Eu delicata rationibus usu. Vix te putant utroque, ludus fabellas duo eu, his dico ut debet consectetuer.</p>
-                    </div>
+                                            </div>
                 </div>
             </div>
             <!-- section title ends here -->
@@ -292,20 +292,16 @@
 
                             <div class="hk_package_contains">
                                 <ul>
-                                    <li>25GB Web Space</li>
-                                    <li>FREE Site Building Tools</li>
-                                    <li>FREE Domain Registar</li>
-                                    <li class="hk_select_title">Select Duration:</li>
+                                    <li>1 GB Storage</li>
+                                    <li>1 GB Bandwidth @ Gigabyte Speed</li>
+                                    <li>Ubuntu Linux Server</li>
+                                    <li>SFTP, SCP, FTP Access</li>
+                                    <li class="hk_select_title">Select Package:</li>
                                     <li class="hk_price_select">
-                                        <p>3 month <span>$29.99/ mo</span></p>
-                                        <ul class="hk_price_option">
-                                            <li>3 month <span>$29.99/ mo</span></li>
-                                            <li>6 month <span>$40.99/ mo</span></li>
-                                            <li>1 year <span>$69.99/ mo</span></li>
-                                        </ul>
-                                    </li>
+                                        <p>1 month <span>B500/ mo</span></p>
+                                        </li>
                                 </ul>
-                                <a href="#" class="hk_btn hk_price_btn">Get Started</a>
+                                <a href="order.php" class="hk_btn hk_price_btn">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -321,7 +317,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="hk_packager_content center">
+                        <div class="hk_packager_content">
                             <div class="hk_package_price">
                                 <div class="hk_price_wrapper">
                                     <p>from</p><span class="hk_price"><sup>B</sup>3000</span><p>Per Month</p>
@@ -330,20 +326,21 @@
 
                             <div class="hk_package_contains">
                                 <ul>
-                                    <li>25GB Web Space</li>
-                                    <li>FREE Site Building Tools</li>
-                                    <li>FREE Domain Registar</li>
-                                    <li class="hk_select_title">Select Duration:</li>
-                                    <li class="hk_price_select">
-                                        <p>3 month <span>$29.99/ mo</span></p>
-                                        <ul class="hk_price_option">
-                                            <li>3 month <span>$29.99/ mo</span></li>
-                                            <li>6 month <span>$40.99/ mo</span></li>
-                                            <li>1 year <span>$69.99/ mo</span></li>
-                                        </ul>
-                                    </li>
+                                    <li></li>
+                                    <li>Full SSH access, console, control</li>
+                                    <li>Up to 25GB SSD storage</li>
+                                    <li>Up to 2GB Ram</li>
+                                    <li>Daily Backups</li>
+                                    <li class="hk_select_title">Select Package:</li>
+                                       <li class="hk_price_select">
+                                        <p>VPS Level 1 <span>B3000/ mo</span></p>
+                                         <ul class="hk_price_option">
+                                            <li>VPS Level 2 <span>B5000/ mo</span></li>
+                                            <li>VPS Level 3 <span>B10000/mo</span></li>
+                                                                                    </ul>
+                                        </li>
                                 </ul>
-                                <a href="#" class="hk_btn hk_price_btn">Get Started</a>
+                                <a href="order.php" class="hk_btn hk_price_btn">Get Started</a>
                             </div>
                         </div>
                     </div>
@@ -351,7 +348,7 @@
                  <div class="col-md-3 col-sm-6">
                     <div class="hk_single_price_table">
                         <div class="hk_pricing_title">
-                            <h3>VPN SERVICE</h3>
+                            <h3>Services</h3>
                             <div class="hk_pricing_bg">
                                 <img class="hk_svg" src="images/pricing_bg.svg" alt="">
                                 <div class="hk_pattern_overlay">
@@ -361,26 +358,20 @@
                         <div class="hk_packager_content center">
                             <div class="hk_package_price">
                                 <div class="hk_price_wrapper">
-                                    <p>from</p><span class="hk_price"><sup>B</sup>3000</span><p>Per Month</p>
+                                    <p>from</p><span class="hk_price"><sup>B</sup>3000</span><p></p>
                                 </div>
                             </div>
 
                             <div class="hk_package_contains">
                                 <ul>
-                                    <li>25GB Web Space</li>
-                                    <li>FREE Site Building Tools</li>
-                                    <li>FREE Domain Registar</li>
+                                   
+                                    <li>Managed Services</li>
+                                    <li>VPN Services</li>
+                                    <li>Development Services</li>
+                                    <li>Custom Services</li>
                                     <li class="hk_select_title">Select Duration:</li>
-                                    <li class="hk_price_select">
-                                        <p>3 month <span>$29.99/ mo</span></p>
-                                        <ul class="hk_price_option">
-                                            <li>3 month <span>$29.99/ mo</span></li>
-                                            <li>6 month <span>$40.99/ mo</span></li>
-                                            <li>1 year <span>$69.99/ mo</span></li>
-                                        </ul>
-                                    </li>
-                                </ul>
-                                <a href="vpn-hosting.html" class="hk_btn hk_price_btn">Get Started</a>
+                                    </ul>
+                                <a href="contact.php" class="hk_btn hk_price_btn">Contact Us Today</a>
                             </div>
                         </div>
                     </div>
@@ -403,10 +394,10 @@
                 <div class="col-md-7 col-md-offset-1 col-sm-7">
                     <div class="hk_promot_wrapper">
                         <div class="hk_section_title reveal animated" data-anim-duration="0.3s" data-anim-delay="0" data-reveal-anim="fadeIn">
-                            <h1>A <span class="title_highlight">Web Hosting</span> Company That Stands by You.</h1>
-                            <p class="hk_title_subtext">All packages may be paid for using a monthly or annual billing cycle. Incididunt labore dolore magna aliqua. Sed ipsum consectetur its adipisicing elit sed do eiusmod tempor incididunt labo dolore. a</p>
+                            <h1><span class="title_highlight">Shiwebs a</span> Company That Stands by You.</h1>
+                            <p class="hk_title_subtext">Shiwebs is based in Bangkok, Thailand and was founded in December 2016 as a new hosting and development solution, that provides high quality hosting and services. Say HIWEB on Shiwebs.</p>
                         </div>
-                        <div class="hk_promot_btn"><a class="hk_btn" href="about_us.html">Know More About Shiwebs</a></div>
+                        <div class="hk_promot_btn"><a class="hk_btn" href="about_us.php">Know More About Shiwebs</a></div>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-5 hk_absolute no-padding">
@@ -431,8 +422,8 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="hk_section_title reveal animated" data-anim-duration="0.3s" data-anim-delay="0" data-reveal-anim="fadeIn">
-                        <h1>We <span class="title_highlight">Guarantee</span> Our Commitment to <span class="title_highlight">Quality</span></h1>
-                        <p class="hk_title_subtext">Eu delicata rationibus usu. Vix te putant utroque, ludus fabellas duo eu, his dico ut debet consectetuer.</p>
+                        <h1>A <span class="title_highlight">Guarantee</span> Our Commitment to <span class="title_highlight">Quality</span></h1>
+                        
                     </div>
                 </div>
             </div>
@@ -443,43 +434,43 @@
                     <div class="col-md-4 col-xs-6 col-sm-4 no-padding">
                         <div class="hk_single_feature hk_pbr">
                             <div class="feature_icon"><img src="images/icons/icon1.svg" alt=""></div>
-                            <h4 class="hk_feature_title">FREE DOMAIN TRANSFER</h4>
-                            <p class="hk_feature_detail">Lorem ipsum dolor sit amet, ecte adipiscing elit. Nullam eget</p>
+                            <h4 class="hk_feature_title">DOMAIN LOOKUP</h4>
+                            <p class="hk_feature_detail">We can help you get your new and wanted domain, that you've been looking for.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-6 col-sm-4 no-padding">
                         <div class="hk_single_feature hk_plrb">
                             <div class="feature_icon"><img src="images/icons/icon2.svg" alt=""></div>
-                            <h4 class="hk_feature_title">Unlimited Bandwith</h4>
-                            <p class="hk_feature_detail">Lorem ipsum dolor sit amet, ecte adipiscing elit. Nullam eget</p>
+                            <h4 class="hk_feature_title">Top Bandwith</h4>
+                            <p class="hk_feature_detail">We provide the most open and highest bandwidth speeds anywhere.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-6 col-sm-4 no-padding">
                         <div class="hk_single_feature hk_plb">
                             <div class="feature_icon"><img src="images/icons/icon3.svg" alt=""></div>
                             <h4 class="hk_feature_title">SECURITY</h4>
-                            <p class="hk_feature_detail">Lorem ipsum dolor sit amet, ecte adipiscing elit. Nullam eget</p>
+                            <p class="hk_feature_detail">We care for our customers security and do our best to have a secure enviorment.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-6 col-sm-4 no-padding">
                         <div class="hk_single_feature hk_ptr">
                             <div class="feature_icon"><img src="images/icons/icon4.svg" alt=""></div>
                             <h4 class="hk_feature_title">99% uptime</h4>
-                            <p class="hk_feature_detail">Lorem ipsum dolor sit amet, ecte adipiscing elit. Nullam eget</p>
+                            <p class="hk_feature_detail">We are running on the latest and most modern hardware. Realiblity at the core.</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-6 col-sm-4 no-padding">
                         <div class="hk_single_feature hk_pltr">
                             <div class="feature_icon"><img src="images/icons/icon5.svg" alt=""></div>
-                            <h4 class="hk_feature_title">FREE WEBSITE OPTIMIZATION</h4>
-                            <p class="hk_feature_detail">Lorem ipsum dolor sit amet, ecte adipiscing elit. Nullam eget</p>
+                            <h4 class="hk_feature_title">FREE WEBSITE CONSULTATIONS</h4>
+                            <p class="hk_feature_detail">Want to make your website have a impact? Want to get advice and tips?</p>
                         </div>
                     </div>
                     <div class="col-md-4 col-xs-6 col-sm-4 no-padding">
                         <div class="hk_single_feature hk_plt">
                             <div class="feature_icon"><img src="images/icons/icon6.svg" alt=""></div>
-                            <h4 class="hk_feature_title">24/7 Tech Support</h4>
-                            <p class="hk_feature_detail">Lorem ipsum dolor sit amet, ecte adipiscing elit. Nullam eget</p>
+                            <h4 class="hk_feature_title">Tech Support</h4>
+                            <p class="hk_feature_detail">We are ready and willing to support our customers asap.</p>
                         </div>
                     </div>
                 </div>
@@ -558,7 +549,7 @@
                         <h2>Have a pre-sale question for our packages?</h2>
                     </div>
                     <div class="hk_promot_btn">
-                        <a href="contact.html" class="hk_btn">Contact Us today!</a>
+                        <a href="contact.php" class="hk_btn">Contact Us today!</a>
                     </div>
                 </div>
             </div>
