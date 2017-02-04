@@ -27,13 +27,13 @@
                                     <li><a href="index.php">Home</a></li>
                                     <li><a href="web-hosting.php">Web Hosting</a></li>
                                     <li><a href="vps-hosting.php">VPS Hosting</a></li>
-                                    <li><a href="managedservice.php">Managed Services </a></li>
-                                    <li><a href="vpn-hosting.php">VPN Service </a></li>
-                                    <li><a href="infrastructureservice.php">Infrastructure Services</a></li>
-                                    <li><a href="webdesignservice.php">Web Design Service </a></li>
+                                   <!-- when we launch services  <li><a href="managedservice.php">Managed Services </a></li> --> 
+                                    <!-- <li><a href="vpn-hosting.php">VPN Service </a></li> --> 
+                                   <!-- <li><a href="infrastructureservice.php">Infrastructure Services</a></li> -->
+                                    <!-- <li><a href="webdesignservice.php">Web Design Service </a></li>  -->
                                                                   </ul>
                             </div>
-                            <div class="hk_footer_links">
+                            <!-- when we launch services <div class="hk_footer_links">
                                 <ul>
                                     <li><a href="developmentservice.php">Development Service</a></li>
                                     <li><a href="designservice.php">Design Service</a></li>
@@ -43,7 +43,7 @@
                                     <li><a href="marketingservice.php">Marketing Service</a></li>
                                     <li><a href="socialmediaservice.php">Social Media Service</a></li>              
                                                    </ul>
-                            </div>
+                            </div> --> 
                         </div>
                     </div>
                     <div class="col-md-3 col-md-offset-0 col-lg-2 col-sm-4 col-lg-offset-1">

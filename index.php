@@ -130,7 +130,7 @@
                                             <p>VPS Hosting</p>
                                         </div>
                                     </li> 
-                                    <li>
+                                   <!-- coming soon when we launch services <li>
                                         <div class="hk_header_single_service" data-hk-target="hk_tab_item3"
                                         data-hk-price="3000THB">
                                             <div class="hk_service_icon">
@@ -138,7 +138,7 @@
                                             </div>
                                             <p>Services</p>
                                         </div>
-                                    </li>
+                                    </li> -->
                                 </ul>
 
                                 <div class="hk_hosting_pricing">
@@ -185,7 +185,7 @@
                                     <a class="hk_btn hk_hero_btn" href="order.php">Get Started Now</a>
                                 </div> 
                                 
-                                <div class="hk_single_pack_desc hk_tab_item3">
+                                <!--  coming soon when we launch services <div class="hk_single_pack_desc hk_tab_item3">
                                     <div class="hk_package_title"><h1>Services</h1></div>
                                     <div class="hk_package_desc">
                                         <p>At Shiwebs, we offer various services from VPN Service all the way to custom web design services. Contact us today with your proposal and we can have a disscussion.</p>
@@ -199,7 +199,7 @@
                                         </div>
                                     </div>
                                     <a class="hk_btn hk_hero_btn" href="contact.php">Contact Us Today</a>
-                                </div> 
+                                </div> --> 
                             </div>
                         </div>
                     </div>
@@ -345,7 +345,7 @@
                         </div>
                     </div>
                 </div>
-                 <div class="col-md-3 col-sm-6">
+                 <!-- coming soon when we launch services <div class="col-md-3 col-sm-6">
                     <div class="hk_single_price_table">
                         <div class="hk_pricing_title">
                             <h3>Services</h3>
@@ -375,7 +375,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                
             </div>
         </div>

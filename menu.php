@@ -20,7 +20,7 @@
                                               </ul>
                     </div>
                   </li>
-                  <li class="hk_has_mehgamenu">
+                 <!-- hide untill we have services <li class="hk_has_mehgamenu">
                             <a href="#">Services<span class="fa fa-angle-down"></span></a>
                             <div class="hk_megamenu">
                                 <ul>
@@ -43,7 +43,7 @@
                                     
                                 </ul>
                             </div>
-                        </li>
+                        </li> -->
                   <li><a href="about_us.php">About</a></li>
                   <li><a href="contact.php">Contact</a></li>
                 </ul>
